@@ -39,21 +39,24 @@ button:hover {
 }
 
 .scroll-container {
-	position: relative;
+	position: absolute;
 	height: 100vh;
 	overflow: hidden;
 	perspective: 400px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .scroll-text {
-	position: absolute;
+	position: relative;
 	bottom: -100%;
-	width: 100%;
+	width: 70%;
 	text-align: center;
 	font-size: 2em;
 	color: yellow;
 	transform: rotateX(20deg);
-	animation: scroll 20s linear;
+	animation: scroll 10s linear;
   }
   
   @keyframes scroll {

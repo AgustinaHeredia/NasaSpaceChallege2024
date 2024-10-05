@@ -1,3 +1,5 @@
+import characterUrls from "./urlsClasses.js";
+
 loadIntro();
 
 
@@ -27,11 +29,12 @@ text.addEventListener('animationend', () => {
 });
 }
 
-function loadImageToCanvas(imageUrl, canvas){
+function loadImageToCanvas(imageUrl, canvas,context){
 	let img = new Image();
 	img.src = imageUrl;
+	console.log(img.src);
 	img.onload = function() {
-		canvas.context.drawImage(img, 0,0, canvas.width, canvas.height);
+		context.drawImage(img, 0,0, canvas.width, canvas.height);
 	};
 }
 
@@ -42,7 +45,7 @@ function initializeGameCanvas() {
 	let context = canvas.getContext('2d');
 	context.fillStyle = 'black';
 	context.fillRect(0, 0, canvas.width, canvas.height);
-	
-	img.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vPf0xPuRDg5StjluYqcQUZFYnuQAnChPh5DQdQFuQvny4W4ZBpzacTKGSXrkXzn3thI&usqp=CAU'
-	
+	let characters = new characterUrls();
+	console.log(characters.leader);
+	loadImageToCanvas(characters.activist,canvas, context);	
 }
