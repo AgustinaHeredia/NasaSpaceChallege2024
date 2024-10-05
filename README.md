@@ -50,3 +50,59 @@ Indicadores de Sostenibilidad Comunitaria: Un indicador que refleja cómo las de
 Resultados Finales
 Resultado Positivo: Si el usuario toma decisiones que equilibran el desarrollo sostenible y la conservación del ambiente, los niveles de CO2 disminuyen y la biodiversidad local comienza a recuperarse. La comunidad logra mejorar su calidad de vida sin dañar el entorno.
 Resultado Negativo: Si el usuario elige opciones que parecen beneficiosas pero tienen consecuencias ocultas, como la expansión del turismo o la plantación de especies invasivas, el resultado puede ser negativo para el medio ambiente. Los niveles de CO2 no se reducen de manera efectiva y el ecosistema local comienza a sufrir, afectando también la salud y el bienestar de la comunidad.
+
+
+Narrativa "Elige Tu Propia Aventura": Liderazgo Mundial en Pekín con Consecuencias Complejas
+Escenario Inicial: Crisis de Contaminación en Pekín
+El protagonista, un líder mundial con influencia en China, se enfrenta a un grave problema de contaminación en Pekín. Los niveles de CO2 han alcanzado picos críticos, afectando la salud de millones de personas y amenazando la estabilidad social. Los datos actuales de contaminación muestran un panorama preocupante, y el personaje debe tomar decisiones difíciles.
+
+Pantalla 1: Introducción
+Se presenta al líder mundial en una conferencia de prensa en Pekín, donde se muestra un gráfico con los niveles crecientes de CO2. La situación es insostenible y requiere medidas urgentes.
+Decisión 1: ¿Cuál es el plan de acción del líder para abordar la crisis?
+
+Implementar un Sistema de Créditos de Carbono Obligatorio: Crear un sistema de créditos para empresas, donde aquellas que reduzcan sus emisiones puedan vender sus créditos a empresas más contaminantes.
+Promover Vehículos Eléctricos mediante Subsidios: Ofrecer grandes subsidios para estimular la producción y compra de vehículos eléctricos.
+Reducir el Uso de Carbón Cerrando Plantas de Energía: Ordenar el cierre de varias plantas energéticas de carbón y promover fuentes alternativas de energía.
+Consecuencias y Nuevas Decisiones
+Opción 1: Implementar un Sistema de Créditos de Carbono Obligatorio
+El líder opta por un enfoque de mercado para reducir las emisiones, estableciendo un sistema de créditos de carbono para regular a las empresas.
+
+Consecuencia Inicial: Inicialmente, algunas empresas optan por mejorar su eficiencia para reducir costos y vender créditos. Sin embargo, grandes compañías con alto poder adquisitivo deciden comprar créditos en lugar de reducir emisiones, lo cual estabiliza las cifras de CO2 pero no logra la reducción esperada.
+
+Impacto No Evidente: Aunque el sistema crea incentivos para algunas empresas, muchas simplemente compran los créditos para evitar realizar cambios estructurales. La comunidad comienza a notar que la contaminación del aire no disminuye significativamente.
+
+Nueva Decisión:
+
+Fortalecer las Regulaciones Ambientales: Introducir leyes más estrictas que complementen el sistema de créditos y obliguen a reducir emisiones directamente.
+Utilizar Fondos de Créditos de Carbono para Proyectos Verdes: Reinvertir los ingresos de los créditos de carbono en proyectos de reforestación y energías renovables.
+Opción 2: Promover Vehículos Eléctricos mediante Subsidios
+El líder decide que incentivar el uso de vehículos eléctricos es una forma rápida y visible de reducir la contaminación urbana.
+
+Consecuencia Inicial: La producción y compra de vehículos eléctricos aumenta, y las emisiones relacionadas con el transporte comienzan a disminuir. Sin embargo, la electricidad para cargar estos vehículos sigue proviniendo de plantas de energía de carbón.
+
+Impacto No Evidente: La demanda energética se incrementa rápidamente, y sin fuentes alternativas, las plantas de carbón aumentan su producción para cubrir la demanda, lo que resulta en un aumento neto de las emisiones de CO2. Además, la producción de baterías trae consigo otros desafíos ambientales, como la extracción de litio.
+
+Nueva Decisión:
+
+Invertir en Energía Solar y Eólica para Cargar Vehículos: Invertir en infraestructura de energía renovable que soporte la nueva demanda generada por los vehículos eléctricos.
+Establecer Incentivos para el Transporte Público Eléctrico: Fomentar el transporte público eléctrico como una alternativa para reducir la cantidad de vehículos individuales.
+Opción 3: Reducir el Uso de Carbón Cerrando Plantas de Energía
+El líder toma una medida radical, ordenando el cierre de varias plantas de energía de carbón.
+
+Consecuencia Inicial: La medida reduce drásticamente las emisiones de CO2 provenientes de esas plantas, pero causa una crisis de suministro eléctrico en varias zonas urbanas e industriales. La falta de energía obliga a muchas empresas a reducir operaciones, lo que genera descontento social y protestas.
+
+Impacto No Evidente: El impacto económico es significativo, ya que muchas industrias dependen del carbón. La falta de planificación previa para compensar el cierre de plantas con alternativas viables resulta en apagones frecuentes y un incremento en el uso de generadores de diésel, que también contaminan.
+
+Nueva Decisión:
+
+Acelerar la Construcción de Plantas de Energía Renovable: Priorizar la inversión en energías renovables, como la solar y la eólica, para cubrir el déficit de energía.
+Introducir una Política de Racionamiento de Energía: Implementar un plan de racionamiento de energía, explicando a la población los beneficios a largo plazo para la calidad del aire y la salud pública.
+Visualización del Impacto
+Después de cada decisión, el usuario puede ver una actualización del estado de la ciudad y del medio ambiente:
+
+Gráficos de Emisiones: Gráficos interactivos que muestran los niveles de CO2 en respuesta a las decisiones tomadas, basados en datos reales de Pekín.
+Indicadores de Calidad del Aire: Un indicador visual muestra cómo la calidad del aire mejora o empeora según las políticas aplicadas, impactando también el índice de enfermedades respiratorias en la población.
+Medidores de Satisfacción Ciudadana: Indicadores que reflejan cómo las decisiones afectan la calidad de vida, la estabilidad económica y la satisfacción social de los ciudadanos.
+Resultados Finales
+Resultado Positivo: Si el usuario toma decisiones que combinan de manera equilibrada el desarrollo económico y la sostenibilidad ambiental, la calidad del aire mejora gradualmente. Pekín se convierte en un ejemplo de cómo un liderazgo proactivo puede equilibrar el crecimiento y la responsabilidad ecológica.
+Resultado Negativo: Si el usuario se enfoca en soluciones a corto plazo sin considerar los efectos secundarios, la contaminación puede estabilizarse pero no mejorar, causando descontento social y problemas de salud a largo plazo.
