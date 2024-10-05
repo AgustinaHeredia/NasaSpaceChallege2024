@@ -1,0 +1,25 @@
+services:
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    restart: always
+    volumes:
+      - nginx_data:/usr/share/nginx/html
+
+  node:
+    image: node:14
+    volumes:
+      - nginx_data:/usr/src/app
+    working_dir: /usr/src/app
+    command: npm install
+    restart: always
+volumes:
+  nginx_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: "./nginx"
+      o: bind
