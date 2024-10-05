@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Tales - Pantalla 1: Introducción</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .content {
+            width: 90%;
+            max-width: 800px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+        .chart {
+            background-color: #e0e0e0;
+            height: 300px;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+        }
+        .decision {
+            margin-bottom: 2rem;
+        }
+        .decision h3 {
+            margin-top: 0;
+        }
+        .option-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+        .option-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Climate Tales - Introducción</h1>
+        <p>Raúl está en una reunión comunitaria donde se presentan datos sobre el aumento de emisiones de CO2.</p>
+    </header>
+
+    <div class="content">
+        <!-- Gráfico de datos de CO2 -->
+        <div class="chart">
+            <p>Gráfico interactivo de CO2 aquí (integrar con D3.js o similar)</p>
+        </div>
+
+        <!-- Decisión de Amara -->
+        <div class="decision">
+            <h3>¿Qué plan de acción toma Amara para enfrentar el problema?</h3>
+            <button class="option-button" onclick="tomarDecision('ecoturismo')">Promover el Ecoturismo en la Región</button>
+            <button class="option-button" onclick="tomarDecision('alianza_reforestacion')">Fomentar una Alianza con Empresas para Reforestación</button>
+            <button class="option-button" onclick="tomarDecision('biomasa')">Introducir una Nueva Plantación Agrícola para Energía Biomasa</button>
+        </div>
+    </div>
+
+    <script>
+        function tomarDecision(decision) {
+            switch (decision) {
+                case 'ecoturismo':
+                    window.location.href = 'ecoturismo.html';
+                    break;
+                case 'alianza_reforestacion':
+                    window.location.href = 'reforestacion.html';
+                    break;
+                case 'biomasa':
+                    window.location.href = 'biomasa.html';
+                    break;
+                default:
+                    alert('Decisión no reconocida.');
+            }
+        }
+    </script>
+</body>
+</html>
