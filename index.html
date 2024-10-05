@@ -3,27 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página en GitHub Pages</title>
+    <title>Climate Tales - Pantalla de Inicio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
+        /* Estilos básicos para un diseño limpio y atractivo */
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-            padding-top: 50px;
+            background-color: #f0f4f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: inline-block;
+        header {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .characters-container {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .character-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .character-card:hover {
+            transform: translateY(-10px);
+        }
+        .character-image {
+            width: 100%;
+            height: auto;
+        }
+        .character-info {
+            padding: 1rem;
+        }
+        .character-info h3 {
+            margin-top: 0;
+        }
+        .select-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+            margin-top: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .select-button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>¡Hola, Mundo!, esto es CLIMATALES</h1>
-        <p>Esta es una página de prueba de las señoras de 42.</p>
+    <header>
+        <h1>Climate Tales</h1>
+        <p>Elige a tu personaje y vive su historia para explorar los desafíos climáticos del mundo.</p>
+    </header>
+
+    <div class="characters-container">
+        <!-- Activista en el Congo -->
+        <div class="character-card">
+            <img src="characters/activist.jfif" alt="Activista en el Congo" class="character-image">
+            <div class="character-info">
+                <h3>Raúl, Activista en el Congo</h3>
+                <p>Raúl trabaja para proteger la biodiversidad y combatir el aumento de CO2 en la Cuenca del Congo.</p>
+                <button class="select-button" onclick="window.location.href='activista_congo.html'">Elige a Amara</button>
+            </div>
+        </div>
+
+        <!-- Líder mundial en Pekín -->
+        <div class="character-card">
+            <img src="characters/leader.jpg" alt="Líder mundial en Pekín" class="character-image">
+            <div class="character-info">
+                <h3>Carla, Líder Mundial en Pekín</h3>
+                <p>Carla debe tomar decisiones difíciles para reducir la contaminación en una de las ciudades más afectadas del mundo.</p>
+                <button class="select-button" onclick="window.location.href='lider_pekin.html'">Elige a Wei</button>
+            </div>
+        </div>
+
+        <!-- Científica en Europa -->
+        <div class="character-card">
+            <img src="characters/scientist.jfif" alt="Científica en Europa" class="character-image">
+            <div class="character-info">
+                <h3>Emma, Científica en Europa</h3>
+                <p>Emma investiga el impacto del cambio climático en el Ártico, intentando encontrar soluciones globales.</p>
+                <button class="select-button" onclick="window.location.href='cientifica_europa.html'">Elige a Emma</button>
+            </div>
+        </div>
         <img src="explode-cute.gif" alt="Gato divertido" style="max-width: 100%; height: auto;">
     </div>
 </body>
