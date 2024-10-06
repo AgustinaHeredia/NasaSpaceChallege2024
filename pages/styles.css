@@ -1,5 +1,14 @@
 body {
-	font-family: Arial, sans-serif;
+	
+	// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.orbitron-<uniquifier> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 	background-color: #f0f4f7;
 	color: #333;
 	margin: 0;
